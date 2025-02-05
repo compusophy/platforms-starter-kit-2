@@ -28,7 +28,7 @@ export default async function SettingsPage() {
           }}
           handleSubmit={editUser}
         />
-        <Form
+{/*         <Form
           title="Email"
           description="Your email on this app."
           helpText="Please enter a valid email."
@@ -39,7 +39,7 @@ export default async function SettingsPage() {
             placeholder: "panic@thedis.co",
           }}
           handleSubmit={editUser}
-        />
+        /> */}
       </div>
     </div>
   );
