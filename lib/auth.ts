@@ -16,7 +16,7 @@ export const authOptions: NextAuthOptions = {
           id: profile.id.toString(),
           name: profile.name || profile.login,
           gh_username: profile.login,
-          email: profile.email,
+          //email: profile.email,
           image: profile.avatar_url,
         };
       },
@@ -75,7 +75,7 @@ export function getSession() {
       id: string;
       name: string;
       username: string;
-      email: string;
+      //email: string;
       image: string;
     };
   } | null>;
